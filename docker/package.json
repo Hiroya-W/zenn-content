@@ -3,25 +3,16 @@
   "version": "1.0.0",
   "description": "* [📘 How to use](https://zenn.dev/zenn/articles/zenn-cli-guide) * [📘 Markdown guide](https://zenn.dev/zenn/articles/markdown-guide)",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hiroya-W/zenn-docs.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hiroya-W/zenn-docs/issues"
-  },
-  "homepage": "https://github.com/Hiroya-W/zenn-docs#readme",
   "dependencies": {
-    "textlint": "^11.8.3",
+    "textlint": "^12.1.0",
     "textlint-rule-preset-ja-spacing": "^2.0.2",
     "textlint-rule-preset-ja-technical-writing": "^4.0.1",
     "textlint-rule-spellcheck-tech-word": "^5.0.0",
-    "zenn-cli": "^0.1.77"
-  }
+    "zenn-cli": "^0.1.100"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
