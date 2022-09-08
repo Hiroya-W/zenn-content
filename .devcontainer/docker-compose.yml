@@ -1,0 +1,17 @@
+version: "3"
+services:
+  main:
+    container_name: vcs-zenn-docs
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VARIANT: "16-bullseye"
+    tty: true
+    volumes:
+      - type: bind
+        source: ..
+        target: /workspaces/zenn-docs
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    ports:
+      - "8000:8000"
